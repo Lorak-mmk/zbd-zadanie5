@@ -1,4 +1,4 @@
-{"born": 1999, "income": 1231231, "lat": 123.23, "lon": 45.67, "intr": ['cyberpunk', 'league of legends', 'C++']}
-{"born": 1337, "income": 123, "lat": 156.11, "lon": 384583.67, "intr": ['league of legends', 'C++']}
-{"born": 2137, "income": 156, "lat": 924.65, "lon": 12.90, "intr": ['cyberpunk', 'C++']}
-{"born": 123123, "income": 87971, "lat": 121.989, "lon": 44.66, "intr": ['cyberpunk', 'league of legends']}
+{"born": 1999, "income": 1231231, "lat": 123.23, "lon": 45.67, "intr": ["cyberpunk", "league of legends", "C++"]}
+{"born": 1337, "income": 123, "lat": 156.11, "lon": 384583.67, "intr": ["league of legends", "C++"]}
+{"born": 2137, "income": 123, "lat": 924.65, "lon": 12.90, "intr": ["cyberpunk", "C++"]}
+{"born": 123123, "income": 87971, "lat": 121.989, "lon": 44.66, "intr": ["cyberpunk", "league of legends"]}

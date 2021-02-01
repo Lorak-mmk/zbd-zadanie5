@@ -1,4 +1,4 @@
-{"width": 720, "height": 480, "color": "#AAAA45", "texts": ["sdasda"]}
-{"width": 1600, "height": 1200, "color": "#AAFFFF", "texts": ["2077", "przeprosiny"]}
-{"width": 1920, "height": 1080, "color": "#AABBCD", "texts": ["2077"]}
+{"width": 2560, "height": 480, "color": "#AAAA45", "texts": ["sdasda"]}
+{"width": 1600, "height": 480, "color": "#AAFFFF", "texts": ["2077", "przeprosiny"]}
+{"width": 1920, "height": 1080, "color": "#AAFFFF", "texts": ["2077"]}
 {"width": 2560, "height": 1440, "color": "#AA0101", "texts": ["przeprosiny"]}

@@ -20,8 +20,8 @@ create_table_users = '''
 create_table_interests = '''
     CREATE TABLE interests (
         id SERIAL PRIMARY KEY,
-        user_id CHAR(32) REFERENCES users(id),
-        name VARCHAR(64),
+        user_id CHAR(32) REFERENCES users(id) NOT NULL,
+        name VARCHAR(64) NOT NULL,
         UNIQUE(user_id, name)
     )
 '''
@@ -38,17 +38,18 @@ create_table_ads = '''
 create_table_ads_texts = '''
     CREATE TABLE ads_texts (
         id SERIAL PRIMARY KEY,
-        ad_id CHAR(32) REFERENCES ads(id),
-        name VARCHAR(64)
+        ad_id CHAR(32) REFERENCES ads(id) NOT NULL,
+        name VARCHAR(64) NOT NULL,
+        UNIQUE(ad_id, name)
     )
 '''
 
 create_table_views = '''
     CREATE TABLE views (
         id SERIAL PRIMARY KEY,
-        user_id CHAR(32) REFERENCES users(id),
-        ad_id CHAR(32) REFERENCES ads(id),
-        time TIMESTAMPTZ
+        user_id CHAR(32) REFERENCES users(id) NOT NULL,
+        ad_id CHAR(32) REFERENCES ads(id) NOT NULL,
+        time TIMESTAMPTZ NOT NULL
     )
 '''
 
